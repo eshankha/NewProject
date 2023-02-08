@@ -1,0 +1,129 @@
+
+
+.card-container{
+
+
+  background-color: white;
+  margin-left: 3vw;
+  /*margin-top: 5vw;*/
+
+  width: 200px;
+
+  overflow: hidden;
+  border-radius: 20px;
+
+}
+
+.image-container img{
+
+  height: 200px;
+  width: 200px;
+
+
+  overflow: hidden;
+
+
+
+}
+
+.search-box{
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  margin-left: 3vw;
+  display: flex;
+  margin-top: 4vh;
+  border-radius: 10px;
+}
+
+.card-text1{
+
+  margin-left: 1rem;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.card-text2{
+
+  margin-left:2rem;
+  font-size: 7px;
+  color: black;
+  font-weight: normal;
+
+}
+
+.card-content{
+  margin-bottom: 1rem;
+}
+
+
+
+.App{
+
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.sidebar{
+  height: 120vh;
+  width: 50%;
+  background-color: white;
+
+}
+
+
+
+.sidebarlist{
+  padding: 0;
+}
+
+.sidebarlist .row{
+  margin: 0%;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: center;
+  font-family: "Berlin Sans FB Demi";
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.sidebarlist .row:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.row #icon{
+  flex: 20%;
+  display: grid;
+  place-items: center;
+  padding-bottom: 20px;
+}
+
+.row #title {
+  flex: 50%;
+}
+
+
+.card-alignment{
+  display: flex;
+}
+
+.main-screenflex{
+  display: flex;
+}
+
+.text-styling{
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
